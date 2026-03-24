@@ -11,9 +11,14 @@
 --> subtração
 *-> multiplicação
 /-> divisão
+## operadores lógicos
+and-> e-> se duas condições forem verdadeiras , o resultado é verdadeiro.
+or-> ou -> pelo menos uma condição foe verdadeira, o resultado é verdadeiro.
+not-> ele altera o valor booliano da condição.
 
 ## metodos em python
 1. print()-> exibe informações no terminal.
+2. input() -> capturar uma informação no terminal.
 
 ## format em python
 
