@@ -26,3 +26,9 @@ not-> ele altera o valor booliano da condição.
  ``if (se)`` -> verifica se uma condição é true (verdadeira) se for, ele executa o código.
  ``elif (senão se)`` -> é usado para testar arias condições .Ele só executa se todas as condições anteriores forem falsas
 `` else (senão)`` -> executa o código se a condição for false (falsa).
+
+
+## boas praticas
+1. qualquer vaiavel em python utiliza o padrão de case snake_case ou recentemente o cammelcase.
+2. se voce observar alguma estrutura tipo nome(), 90% de chance  de ser uma função. 
+3. python não tem constante porem utilizamos o padrao case , uppercase, para simular que aquela variavel mão pode ser alterada.
