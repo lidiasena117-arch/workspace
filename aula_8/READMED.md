@@ -27,6 +27,10 @@ not-> ele altera o valor booliano da condição.
  ``elif (senão se)`` -> é usado para testar arias condições .Ele só executa se todas as condições anteriores forem falsas
 `` else (senão)`` -> executa o código se a condição for false (falsa).
 
+## conversão de tipos em pyhton
+1. int()-> a gente vai incluir qual variavel/dado que queremos converter para numero inteiro.
+2. float()->  a gente vai incluir qual variavel/dado que queremos converter para numero decimal.
+3. str()-> a gente vai incluir qual variavel/dado que queremos converter para texto.
 
 ## boas praticas
 1. qualquer vaiavel em python utiliza o padrão de case snake_case ou recentemente o cammelcase.

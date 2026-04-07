@@ -3,6 +3,7 @@
 # elif (senão se) -> é usado para testar arias condições .Ele só executa se todas as condições anteriores forem falsas
 # else (senão) -> executa o código se a condição for false (falsa).
 
+
 # idade_usuario = 9
 # # se o usuario for maior de 18 anos , eu vou passar a informação: voce é maior de idade; senão voce é menor de idade
 # if idade_usuario >= 18:

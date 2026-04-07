@@ -1,0 +1,16 @@
+
+idade = int(input("Digite a idade: "))
+salario = int(input("digite valor do salário: R$"))
+tempo_anos= int(input("digite o tempo de trabalho"))
+
+if idade < 18:
+    print("valor negado.")
+elif salario>5000:
+    print("valor aprovado")
+
+elif idade >= 18 and salario>= 2000 and tempo_anos>= 2:
+    print("emprestimo aprovado: Você atende a todos os requisitos.") 
+  
+else:
+    print("emprestimo negado: voce não atende os requisitos") 
+
