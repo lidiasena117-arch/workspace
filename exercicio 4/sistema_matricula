@@ -1,0 +1,21 @@
+# Entradas dos dados
+idade = int(input("Digite a idade do aluno : "))
+nota = int (input("Digite a nota do aluno: "))
+frequencia = int(input("Digite a frequência do aluno"))
+
+if idade>=18:
+    print("matricula aprovada.")
+if nota>=6:
+    print("matricula aprovada.")
+elif nota>=9:    
+    print("matricula aprovada automaticamente.")
+if frequencia>=75:
+    print("matricula aprovada.") 
+
+elif idade>= 18 and nota>= 6 and nota>= 9 and frequencia>= 75:
+     print("matricula aprovada.")
+
+else:
+    print("matricula negada.")
+    
+    #verificar a idade, nota e a frquencia. 

@@ -1,0 +1,30 @@
+from xmlrpc import client
+
+
+print("sistema de estacionamento de carro.")
+
+# Entradas dos dados
+idade = int(input("idade motorista : "))
+cadastro = int (input("se possui cadastro no shopping: "))
+veiculo = int(input("informar o tipo de veiculo:"))
+vip = int (input("informar se é cliente vip:")) 
+
+# Estruturas condicionais
+
+if idade >= 18:
+    if cadastro == "sim":
+        print("aprovado")
+    if vip == "sim":
+        print("Aprovado (VIP).")
+    elif veiculo ==  "carros e motos" :
+        print("está aprovado.")
+    
+    else :
+        print("Aprovado (cadastro geral).")
+
+if veiculo and idade>=18:
+    print("emprestimo aprovado automaticamente.")
+
+
+if idade >= 18 and cadastro == "nao" and vip == "nao" and veiculo == "onibus":                
+    print("Condição diferente, verifique.")
