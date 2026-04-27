@@ -2,5 +2,5 @@
 saldo= 1000
 while saldo > 0: 
     saque = float(input("digite o valor do saque: "))
-    saldo -= saque # saldo = saldo - saque 
+    saldo -= saque # saldo = saldo - saque f5ffffff5
     print (f'saldo restante: {saldo}')
