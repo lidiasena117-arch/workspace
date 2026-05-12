@@ -19,6 +19,9 @@ not-> ele altera o valor booliano da condição.
 ## metodos em python
 1. print()-> exibe informações no terminal.
 2. input() -> capturar uma informação no terminal.
+3. lower() -> coloca o maiusculo em minusculo
+4. upper() -> coloca em maiusculo
+5. isdigit() -> verifica se o valor contem numeros
 
 ## format em python
 
